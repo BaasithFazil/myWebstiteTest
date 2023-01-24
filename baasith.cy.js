@@ -1,6 +1,8 @@
 
-// i dont want to add cypress package here. Its already added to support/command.js coz each and every test files I need to include. So to reduce I ahv
 
+
+
+/// <reference types="cypress" />
 
 beforeEach(() => {
     cy.visit("https://baasithfazil.github.io/resume/")
