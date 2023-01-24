@@ -1,3 +1,4 @@
-<h2 style="color:red;"> This is my website testing script created with JavaScript Cypress Framework  </h2>
+<h2> This is my website testing script created with JavaScript Cypress Framework  </h2>
 
-<h1 style="color:blue;">A Blue Heading</h1>
+<p> Here I have attached my script using cypress framework to test my own website where I have created from github.io. </p>
+
