@@ -1,1 +1,1 @@
-<h1> This is my website testing script created with JavaScript Cypress Framework  </h1>
+<h2 style="color:blue"> This is my website testing script created with JavaScript Cypress Framework  </h2>
