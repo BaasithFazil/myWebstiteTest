@@ -160,5 +160,48 @@ describe("Navigation Bar (Side)", ()=> {
 })
 
 
+//body testing 
+
+describe('Body Testing', () => {
+
+    it('Background Frame', () => {
+
+        //background image -checking
+        cy.get('#hero').should('have.css', 'background').and('include', 'bg-img2.avif')
+
+        //first heading (My Name)
+        cy.get('.hero-container').find('h1').should('be.visible').contains('Baasith Fazil')
+
+        //second my position 
+        cy.get('.hero-container').find('p').should('be.visible')
+
+
+        //my github profile and it's icon
+        cy.get('.github').should('be.visible').find('i').should('be.visible')
+        //my linkedIn profile and it's icon
+        cy.get('.linkedin').should('be.visible').find('i').should('be.visible')
+        //my medium profile and it's icon
+        cy.get('.medium').should('be.visible').find('i').should('be.visible')
+
+    });
+
+
+
+    it('About Container Testing', () => {
+
+        //whole container visible checking
+        cy.get('#about > .container').should('be.visible')
+        
+
+
+
+        
+    });
+
+
+
+  
+})
+
 
 
